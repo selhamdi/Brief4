@@ -1,0 +1,578 @@
+
+    *{
+      margin:0%;
+      padding: 0%;
+      box-sizing: border-box;
+     }
+body {  overflow-x: hidden;}
+
+          /* Menu */
+label
+   {
+    float: right;
+    color: wheat;
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+   }
+#toggle {display:none;}
+
+.logo
+    {
+      position: absolute;
+      margin-top: 2%;
+      margin-left: 7%;
+    }
+
+             /* header */
+header ul p { display: inline;}
+
+header h2
+    {
+      font-size:40px ;
+      color: #707070;
+      font-family:Raleway Medium;
+      text-align: center;
+      margin-top: 5% ;  
+    }
+header ul p img 
+    {
+      margin-left: 1%;
+      margin-bottom: -1%;
+    }
+ header ul
+   {
+      width: 100%;
+      margin-left: 26%;
+      margin-top: 1%;
+      position: absolute;
+    }
+header ul li 
+    { 
+      margin-left: 1%;
+      margin-bottom: -1%;
+      text-decoration: none;
+      MARGIN: -4%;
+      margin-left: 6%;
+    }
+li
+    {
+      text-decoration: none;
+      display: inline;
+    }
+.back img 
+    {
+      width:100%;
+      height:500px;  
+    }
+.back h1
+    {
+      font-size: 60px;
+      color: #F7F7F7;
+      font-family: Raleway Medium;
+      position: absolute;
+      top: 27%;
+      left: 38%;
+      border-bottom: 2px solid white;
+    }
+          /* Les Images*/
+.img1
+    {
+      width: 47%;
+      height: 622px;
+      background-image: url(../image/burj-dubai.jpg);
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      display: inline-block;
+      margin-left: 3%;
+      margin-bottom: 3%;
+     }
+.img2
+     {
+        width: 50%;
+        height: 700px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+.img2-1
+      {
+        margin-left: 3%;
+        margin-top: 9%;
+        width: 90%;
+        height: 45%;
+        background-size: cover;
+        background-image: url(../image/Palm.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+.img2-2
+      {
+        width: 90%;
+        height: 45%;
+        background-size: cover;
+        background-image: url(../image/9.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-left: 3%;
+        margin-top: 6%;
+      }
+.img4
+      { 
+        width: 57%;
+        height: 515px;
+        background-image: url(../image/12.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        /* margin-top: -39%; */
+        margin-left: -7%;
+        margin-bottom: 18%;
+      }
+.img3
+      {
+        width: 47%;
+        height: 706px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: inline-block;
+        margin-bottom: 7%;
+      }
+.img3-1
+      {
+        width: 73%;
+        height: 45%;
+        margin-top: -2%;
+        margin-left: 6%;
+        background-size: cover;
+        background-image: url(../image/safari-desierto.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+    
+      }
+.img3-2
+      {  
+        margin-left: 6%;
+        margin-top: 5%;
+        width: 73%;
+        height: 45%;
+        background-size: cover;
+        background-image: url(../image/13.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+.img5
+      {
+        width: 62%;
+        height: 788px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+.img5-1
+      {
+        width: 96%;
+        height: 52%;
+        margin-top: -14%;
+        margin-left: 4%;
+        background-size: cover;
+        background-image: url(../image/burj-arab.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+.img5-2
+      { 
+        width: 97%;
+        height: 52%;
+        background-size: cover;
+        background-image: url(../image/10.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 4%;
+        margin-left: 4%;
+        
+      }
+.img6
+      {
+        width: 38%;
+        height: 706px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: inline-block;
+      }
+.img6-1
+      {
+          width: 88%;
+          margin-bottom: 6%;
+          margin-left: 5%;
+          margin-top: -60%;
+          height: 39%;
+          background-size: cover;
+          background-image: url(../image/sharjah.jpg);
+          background-position: center;
+          background-repeat: no-repeat;
+      }
+.img6-2
+      {   
+         width: 89%;
+        margin-bottom: 6%;
+        margin-left: 5%;
+        height: 39%;
+        background-size: cover;
+        background-image: url(../image/zoco-oro.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+.img6-3
+      {    
+        width: 89%;
+        margin-left: 5%;
+        height: 39%;
+        background-size: cover;
+        background-image: url(../image/mezquita-jumeirah.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+        /* footer */
+.footer_d
+      {
+        padding: 11px 10px;
+        margin-top: 20%;
+        width: 100%;
+        background-color: #688095;
+        overflow: hidden;
+        text-align: center;
+        height: 46px;
+      }
+  .footer_d p{
+    line-height: 20px;
+    color: white;
+    float: right; 
+  }
+  .footer_d p:first-of-type{
+    float: left;
+    margin-right: 20px;
+  }
+  .footer_d p:nth-of-type(2),
+  .footer_d p:nth-of-type(3){
+    margin-right: 20px;
+  }
+
+   footer >*
+   {
+      display: inline-block;
+    }
+  footer
+     {
+      width: 80%;
+      margin: auto;
+    }
+  .imag
+    {
+        width: calc(95%/4);
+        float: left;
+        margin-top: -3%;
+    }
+  .liste1{ width:calc(96%/4);float: left;}
+  .liste2{ width:calc(99%/4); float: left;}
+  .info{ width:calc(100%/4); float: left;}
+  .imag img 
+    {
+      width: 42%;
+      margin-bottom: -16%;
+      margin-right: 10px;
+    }
+    
+  .imag p
+    {
+      font-size: 9px;
+      font-family: Open Sans;
+      color: #688095;
+      margin: 46px 0px;
+    }
+
+  .RS
+    {
+      width: 19%;
+      margin-left: 9%;
+      margin-top: -11%;
+      display: inline-flex;
+      float: left;
+    }
+  .liste1 p
+    {
+      font-size: 16px;
+      font-family: Open Sans;
+      font-weight: bolder;
+      color: #688095;
+    
+    }
+    .liste1 ul li 
+    {
+      display: block;
+      list-style: none;
+      color: #AAA9A9;
+      margin-top: 4%;
+    }
+
+    .liste2 p
+    {
+      font-size: 16px;
+      font-family: Open Sans;
+      font-weight: bolder;
+      color: #688095;
+    
+    }
+    .liste2 ul li
+     {
+      display: block;
+      color: #AAA9A9;
+      margin-top: 4%;
+
+    }
+    footer ul li:before{ content: "\2192";
+      color: #688095;
+      margin-left:2%;} 
+     
+.info{
+  width:calc(100%/4);
+  float: left;
+}
+    .info h3
+    {
+ 
+    font-size: 16px;
+    font-family: Open Sans;
+    font-weight: bolder;
+    color: #688095;
+    margin-top: 20px;
+
+    }
+    .info p
+    {
+     color:#AAA9A9;
+     margin-top: 12px;
+    }
+    .info span
+    {
+      color: #2C4458;
+   margin-top: 12%;
+      font-weight: bolder;
+    }
+    .info a
+    {
+      color: #688095;
+    }
+
+   .final
+   {
+    color: #688095;
+   }
+
+@media(max-width:767px)
+  {
+    .nav{
+          position: fixed;
+    top: 0px;
+    background-color: initial;
+    text-align: center;
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    z-index: 1;
+  }
+
+  label {
+    display: block;
+    font-size: 45px;
+    
+
+}
+
+header ul{
+  margin-left: 0px;
+}
+header ul p 
+{
+  display: none;
+}
+
+.menu  {
+  text-align: center;
+  width: 100%;   
+  margin-top: 63px;
+  margin-right: 0px;
+  display: none;
+}
+
+.menu li  {
+  font-size: 36px;
+  background-color: white;
+  width: 87%;
+  display: block;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+  margin-bottom: 1%;
+  margin-top: -2%;
+}
+.menu ul p
+ {
+
+}
+
+
+
+#toggle:checked +.menu{
+ display: block;
+ 
+}
+.logo
+{
+  margin-top: 4%;
+  margin-left: 38%
+}
+
+  .back h1
+    {font-size: 33px;
+      top: 34%;
+      left: 40%;
+    }
+footer {
+  margin-top: 480px;
+  width: 100%;
+}
+footer > *{
+  display: block !important;
+  float: none  !important;
+  width: 100%  !important;
+  margin: auto  !important;
+  text-align: center  !important;
+}
+      .wrapp{
+          display: flex;
+/*          flex-wrap: wrap;*/
+          flex-direction: column;
+      }
+
+      .wrapp .img1{
+        
+        width: 100%;
+        margin: 0;
+      }
+      .wrapp .img2{
+        width: 100%;
+        margin: 0;
+      }
+      .wrapp .img2-1{
+        height: 55%;
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img2-2{
+        height: 55%;
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img2-2{
+        margin: 0;
+        width: 100%;
+        height: 55%;
+      }
+      .wrapp .img2-2{
+        height: 55%;
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img3{
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img3-1{
+        height: 55%;
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img3-2{
+        margin: 0;
+        width: 100%;
+        height: 55%;
+      }
+      .wrapp .img4{
+        height: 55%;
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img5{
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img5-1{
+        height: 55%;
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img5-2{
+        height: 55%;
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img6{
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img6-1{
+        margin: 0;
+        width: 100%;
+        height: 55%;
+      }
+      .wrapp .img6-2{
+        height: 55%;
+        margin: 0;
+        width: 100%;
+      }
+      .wrapp .img6-3{
+        height: 55%;
+        margin: 0;
+        width: 100%;
+      }
+
+      .RS{
+        float: none;
+        margin: 12px 0px 57px;
+      }
+      .RS img{
+        width: 31%;
+        margin-right: 10px;
+      }
+      .imag p{
+        margin-top: 87PX;
+      }
+      .liste2 p{
+        margin-top: 30px;
+      }
+
+      .img6-1 {
+          margin-top: 0px;
+      }
+      header h2{
+        margin-bottom: 20px;
+        font-size: 20px;
+      }
+      .info{
+        padding: 11px;
+      }
+      .footer_d{
+        height: max-content;
+      }
+      .footer_d p{
+        float: none;
+      }
+}
